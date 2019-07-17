@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38A2DE222D92A0800C518D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38A2DE122D92A0800C518D7 /* AppDelegate.swift */; };
+		C38A2DE422D92A0800C518D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38A2DE322D92A0800C518D7 /* ViewController.swift */; };
+		C38A2DE722D92A0800C518D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38A2DE522D92A0800C518D7 /* Main.storyboard */; };
+		C38A2DE922D92A0900C518D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38A2DE822D92A0900C518D7 /* Assets.xcassets */; };
+		C38A2DEC22D92A0900C518D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38A2DEA22D92A0900C518D7 /* LaunchScreen.storyboard */; };
+		DED76E39C58841142A410508 /* Pods_Pilgrim_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15586790103BD689034263AA /* Pods_Pilgrim_Sample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15586790103BD689034263AA /* Pods_Pilgrim_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pilgrim_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3EC901D17679A20CB803A4 /* Pods-Pilgrim Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pilgrim Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pilgrim Sample/Pods-Pilgrim Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB5DD0EBE00831EA48C6234 /* Pods-Pilgrim Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pilgrim Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pilgrim Sample/Pods-Pilgrim Sample.release.xcconfig"; sourceTree = "<group>"; };
+		C38A2DDE22D92A0800C518D7 /* Pilgrim Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pilgrim Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38A2DE122D92A0800C518D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C38A2DE322D92A0800C518D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C38A2DE622D92A0800C518D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38A2DE822D92A0900C518D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C38A2DEB22D92A0900C518D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C38A2DED22D92A0900C518D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38A2DDB22D92A0800C518D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED76E39C58841142A410508 /* Pods_Pilgrim_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		449BAD710315B4E90A065930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15586790103BD689034263AA /* Pods_Pilgrim_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C352C4B99CC0CFA3437EFE54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E3EC901D17679A20CB803A4 /* Pods-Pilgrim Sample.debug.xcconfig */,
+				4BB5DD0EBE00831EA48C6234 /* Pods-Pilgrim Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C38A2DD522D92A0800C518D7 = {
+			isa = PBXGroup;
+			children = (
+				C38A2DE022D92A0800C518D7 /* Pilgrim Sample */,
+				C38A2DDF22D92A0800C518D7 /* Products */,
+				C352C4B99CC0CFA3437EFE54 /* Pods */,
+				449BAD710315B4E90A065930 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C38A2DDF22D92A0800C518D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38A2DDE22D92A0800C518D7 /* Pilgrim Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38A2DE022D92A0800C518D7 /* Pilgrim Sample */ = {
+			isa = PBXGroup;
+			children = (
+				C38A2DE122D92A0800C518D7 /* AppDelegate.swift */,
+				C38A2DE322D92A0800C518D7 /* ViewController.swift */,
+				C38A2DE522D92A0800C518D7 /* Main.storyboard */,
+				C38A2DE822D92A0900C518D7 /* Assets.xcassets */,
+				C38A2DEA22D92A0900C518D7 /* LaunchScreen.storyboard */,
+				C38A2DED22D92A0900C518D7 /* Info.plist */,
+			);
+			path = "Pilgrim Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38A2DDD22D92A0800C518D7 /* Pilgrim Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38A2DF022D92A0900C518D7 /* Build configuration list for PBXNativeTarget "Pilgrim Sample" */;
+			buildPhases = (
+				38866B3ADE9803D6344C290C /* [CP] Check Pods Manifest.lock */,
+				C38A2DDA22D92A0800C518D7 /* Sources */,
+				C38A2DDB22D92A0800C518D7 /* Frameworks */,
+				C38A2DDC22D92A0800C518D7 /* Resources */,
+				E88B2D4D2A98C8A1D3106D5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pilgrim Sample";
+			productName = "Pilgrim Sample";
+			productReference = C38A2DDE22D92A0800C518D7 /* Pilgrim Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38A2DD622D92A0800C518D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Gareth Jones";
+				TargetAttributes = {
+					C38A2DDD22D92A0800C518D7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C38A2DD922D92A0800C518D7 /* Build configuration list for PBXProject "Pilgrim Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38A2DD522D92A0800C518D7;
+			productRefGroup = C38A2DDF22D92A0800C518D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38A2DDD22D92A0800C518D7 /* Pilgrim Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38A2DDC22D92A0800C518D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38A2DEC22D92A0900C518D7 /* LaunchScreen.storyboard in Resources */,
+				C38A2DE922D92A0900C518D7 /* Assets.xcassets in Resources */,
+				C38A2DE722D92A0800C518D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38866B3ADE9803D6344C290C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pilgrim Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88B2D4D2A98C8A1D3106D5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pilgrim Sample/Pods-Pilgrim Sample-frameworks.sh",
+				"${PODS_ROOT}/Pilgrim/Pilgrim-2.2.0/Pilgrim.framework",
+				"${PODS_ROOT}/Pilgrim/Pilgrim-2.2.0/Pilgrim.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pilgrim.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Pilgrim.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pilgrim Sample/Pods-Pilgrim Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38A2DDA22D92A0800C518D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38A2DE422D92A0800C518D7 /* ViewController.swift in Sources */,
+				C38A2DE222D92A0800C518D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C38A2DE522D92A0800C518D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38A2DE622D92A0800C518D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38A2DEA22D92A0900C518D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38A2DEB22D92A0900C518D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38A2DEE22D92A0900C518D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C38A2DEF22D92A0900C518D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38A2DF122D92A0900C518D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3EC901D17679A20CB803A4 /* Pods-Pilgrim Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53AF9EMAN4;
+				INFOPLIST_FILE = "Pilgrim Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foursquare.Pilgrim-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C38A2DF222D92A0900C518D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB5DD0EBE00831EA48C6234 /* Pods-Pilgrim Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53AF9EMAN4;
+				INFOPLIST_FILE = "Pilgrim Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foursquare.Pilgrim-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38A2DD922D92A0800C518D7 /* Build configuration list for PBXProject "Pilgrim Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38A2DEE22D92A0900C518D7 /* Debug */,
+				C38A2DEF22D92A0900C518D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38A2DF022D92A0900C518D7 /* Build configuration list for PBXNativeTarget "Pilgrim Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38A2DF122D92A0900C518D7 /* Debug */,
+				C38A2DF222D92A0900C518D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38A2DD622D92A0800C518D7 /* Project object */;
+}
